@@ -72,7 +72,7 @@
             "required": 1,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "0",
                 "class": "",
                 "id": ""
             },
@@ -82,7 +82,7 @@
             "insert": "append",
             "library": "all",
             "min": 3,
-            "max": 5,
+            "max": 6,
             "min_width": "",
             "min_height": "",
             "min_size": "",
@@ -111,6 +111,36 @@
             "rows": "",
             "new_lines": "",
             "acfe_textarea_code": 0
+        },
+        {
+            "key": "field_5f04a53cca7bb",
+            "label": "TipoDestino",
+            "name": "tipodestino",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "choices": {
+                "Promocion": "Promocion",
+                "Recomendado": "Recomendado",
+                "Gratis": "Gratis",
+                "Más Relevante": "Más Relevante"
+            },
+            "default_value": "Promocion",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 1,
+            "return_format": "value",
+            "allow_custom": 0,
+            "placeholder": "Selecciona la categoria del destino",
+            "search_placeholder": ""
         }
     ],
     "location": [
@@ -138,5 +168,5 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1594068725
+    "modified": 1594240813
 }
